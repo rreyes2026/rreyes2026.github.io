@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>
+Cafe 7 Dream Contact Page
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+  margin:0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color:#F8F8F8;
+}
+section{
+  background-color:#EFE7DD;
+  overflow:hidden;
+  text-align: center;
+}
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #EFE7DD;
+}
+footer{
+  background-color:#EFE7DD;
+  text-align:center;
+  overflow:hidden;
+  position: absolute;
+  width:100%;
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 40px 70px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#EFE7DD;
+  color:#087830;
+}
+.bg {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:black
+}
+.row {
+  margin: 10px 50px;
+}
+
+.row,
+.row > .column {
+  padding: 10px;
+}
+
+.column {
+float: right;
+  width: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 25px;
+}
+</style>
+</head>
+<nav>
+  <div class="topnav">
+  <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#menu">MENU</a>>
+  </div>
+</nav>
+<section> 
+<div id="contact"></div>
+<div class="bg">
+  <img src="https://external-preview.redd.it/F1F7gc2kFNp3S3TuzFjSPtrv6rXq3jYoihAEm1Upls8.png?format=pjpg&auto=webp&s=cbf72e326c383ce2b41c497de66f5b52b79065db" width=1340 height=750 alt="cafe 7 dream background image">
+</div>
+
+<h2> CONTACT US </h2>
+<p> Open Mon-Sun 9:00am - 11:00pm <br>
+Contact No: +82 813 265 1125<br>
+Tel. No: 282-2828<br>
+Email: 7dreamcafe@email.com<br>
+SM Bldg, 825 Seventh Street, Seoul, Republic of Korea 3238
+</p>
+</section>
+<footer>
+	<p>© 2022, Cafe 7 Dream</p>
+</footer>
+</html>
